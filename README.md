@@ -31,26 +31,8 @@ In general in this project we learned to use library Flask, managing Docker and 
 
 Detailed instructions are found in comandos file. First thing to be done is to create the docker machine. Once it is run we end up with a local API on our web browser to previously submitted data. Dockerfile will load necessary dependencies.
 
-Later to check random data two ways can be followed. With the application POSTMAN, data can be post in http format very easily. But if you don't want to do this, then you can open your console and use this command below with the data you would like to check. Data should have all variables and values should be choosen according to data dictionary given. below is an example from test data that we have previously used.
+Later to check random data two ways can be followed. With the application POSTMAN, data can be post in http format very easily. But if you don't want to do this, then you can open your console and use this command below with the data you would like to check. Data should have all variables and values should be choosen according to data dictionary given.
 
-curl --location --request POST 'http://127.0.0.1:5000/prediction' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "step": 43,
-    "amount": 183961.06,
-    "connection_time": 0.188162,
-    "oldbalanceOrg": 10110.0,
-    "age": 14,
-    "newbalanceOrig": 0.00,
-    "user_number": 4304,
-    "user_connections": 7,
-    "security_alert": 0,
-    "oldbalanceDest": 3065000.46,
-    "newbalanceDest": 3248961.52,
-    "type": "CASH_OUT",
-    "zone": "country",
-    "device": "iphone" 
-}'
 
 4. How to use the Project?
 
