@@ -31,7 +31,7 @@ In general in this project we learned to use library Flask, managing Docker and 
 
 Detailed instructions are found in [Commands.md](https://github.com/gozdeydd/machine-learning-Practica4-Fraude-API/blob/main/Commands.md) file. First thing to be done is to create the docker images and execute docker compose. Once it is run we end up with a local API on our web browser to previously submitted data. Dockerfile will load necessary dependencies.
 
-Later to check random data two ways can be followed. With the application POSTMAN, data can be post in http format very easily. But if you don't want to do this, then you can open your console and use curl with the data you would like to check. Data should have all variables and values should be choosen according to data dictionary given.
+Later to check random data two ways can be followed. With the application POSTMAN, data can be post in http format very easily. But if you don't want to do this, then you can open your console and use curl with the data you would like to check. Data should have all variables and values should be choosen according to data dictionary given[initial variables.xlsx](https://github.com/gozdeydd/machine-learning-Practica4-Fraude-API/blob/main/initial%20variables.xlsx). Command in console is returning O (not fraud) or 1 (fraud).
 
 
 4. How to use the Project?
