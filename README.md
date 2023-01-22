@@ -3,7 +3,7 @@
 
 This project was created by Gozde Yazganoglu and Irma Sanchez.
 
-https://github.com/gozdeydd/-machine-learning-Practica4-Fraude-API
+https://github.com/gozdeydd/machine-learning-Practica4-Fraude-API
 
 gozde.yazganoglu@cunef.edu
 
