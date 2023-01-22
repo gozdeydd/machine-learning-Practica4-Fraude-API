@@ -1,22 +1,24 @@
-First create images:
+# How to run
 
+### First create the images:
+```bash
 docker build -t machine_learning_fraud_app -f Dockerfile_App .
 docker build -t machine_learning_fraud_dashboard -f Dockerfile_Dashboard .
+```
 
-
-Start docker containers with:
-
+### Start docker containers with:
+```bash
 docker compose up
+```
 
-
-Alternativelly containers can be started with:
-
+### Alternativelly containers can be started with:
+```bash
 docker run --rm -p 5000:5000 -v shared:/shared machine_learning_fraud_app
 docker run --rm -p 5001:5001 -v shared:/shared machine_learning_fraud_dashboard
+```
 
-
-To send a prediction to the API you can use curl and run the next command:
-
+### To send a prediction to the API you can use curl and run the next command:
+```bash
 curl --location --request POST 'http://127.0.0.1:5000/prediction' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -35,7 +37,7 @@ curl --location --request POST 'http://127.0.0.1:5000/prediction' \
     "zone": "country",
     "device": "iphone" 
 }'
+```
 
-
-There is a dashboard avaiable at:
+### There will be a dashboard avaiable at:
 http://127.0.0.1:5001/
