@@ -1,4 +1,4 @@
-# machine-learning-Practica4-Fraude-API
+# Analisis of Fraude (this time on API)
 
 
 This project was created by Gozde Yazganoglu and Irma Sanchez.
