@@ -1,0 +1,20 @@
+name: machine_learning_fraud_api
+
+services:
+
+  fraud_api:
+    image: machine_learning_fraud_app
+    ports:
+      - 5000:5000
+    volumes:
+      - ./shared:/shared
+
+  dashboard:
+    depends_on:
+      - fraud_api
+    image: machine_learning_fraud_dashboard
+    ports:
+      - 5001:5001
+    volumes:
+      - ./shared:/shared
+

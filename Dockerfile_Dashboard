@@ -1,0 +1,19 @@
+FROM python:3.9.16-slim
+
+MAINTAINER Gozde Yazganoglu
+
+WORKDIR /data
+
+EXPOSE 5001
+
+VOLUME /shared
+
+RUN pip install -U Flask 
+RUN pip install plotly
+RUN pip install pandas
+RUN pip install dash
+
+COPY dashboard.py ./dashboard.py
+
+ENTRYPOINT ["python3", "dashboard.py"]
+

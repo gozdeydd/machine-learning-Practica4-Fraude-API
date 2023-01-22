@@ -1,0 +1,7 @@
+,step,amount,connection_time,oldbalanceOrg,age,newbalanceOrig,user_number,user_connections,security_alert,oldbalanceDest,newbalanceDest,type,zone,device,prediction,call_timestamp
+0,43,183961.06,0.188162,10110,14,0,4304,7,0,3065000.46,3248961.52,CASH_OUT,country,iphone,0,2023-01-22
+0,43,183961.06,0.188162,10110,14,0,4304,7,0,3065000.46,3248961.52,CASH_OUT,country,iphone,0,2023-01-21
+0,43,183961.06,0.188162,10110.0,14,0.0,4304,7,0,3065000.46,3248961.52,CASH_OUT,country,iphone,0,2023-01-22
+0,43,183961.06,0.188162,10110.0,14,0.0,4304,7,0,3065000.46,3248961.52,CASH_OUT,country,iphone,0,2023-01-22
+0,43,183961.06,0.188162,10110.0,14,0.0,4304,7,0,3065000.46,3248961.52,CASH_OUT,country,iphone,0,2023-01-22
+0,43,183961.06,0.188162,10110.0,14,0.0,4304,7,0,3065000.46,3248961.52,CASH_OUT,country,iphone,0,2023-01-22

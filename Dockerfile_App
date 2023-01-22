@@ -1,0 +1,19 @@
+FROM python:3.9.16-slim
+
+MAINTAINER Gozde Yazganoglu
+
+WORKDIR /data
+
+EXPOSE 5000
+
+VOLUME /shared
+
+RUN pip install -U Flask 
+RUN pip install pandas
+RUN pip install scikit-learn==1.0.2
+
+COPY model_Ada.pickle ./model_Ada.pickle
+COPY app.py ./app.py
+
+ENTRYPOINT ["python3", "app.py"]
+
